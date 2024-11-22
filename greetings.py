@@ -6,3 +6,6 @@ def spanish_greeting():
 
 def french_greeting():
     print("Bonjour, le monde!")
+
+def swahili_greeting():
+    print("Habari Dunia!")
