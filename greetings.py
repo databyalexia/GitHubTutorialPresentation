@@ -1,11 +1,11 @@
 def english_greeting():
-    print("Hello World!")
+    return "Hello World!"
 
 def spanish_greeting():
-    print("¡Hola, mundo!")
+    return "¡Hola, mundo!"
 
 def french_greeting():
-    print("Bonjour, le monde!")
+    return "Bonjour, le monde!"
 
 def swahili_greeting():
-    print("Habari Dunia!")
+    return "Habari Dunia!"

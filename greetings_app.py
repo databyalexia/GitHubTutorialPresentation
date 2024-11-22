@@ -11,12 +11,17 @@ def display_greeting(language):
     elif language == "Spanish":
         greeting_label.config(text=greetings.spanish_greeting())
 
-
+#Main application window
 root = tk.Tk()
 root.title("Greeting App")
 root.geometry("300x300")
 
-greeting_label = tk.Label(root, text = "Click a button to see a greeting", font = ("Arial, 12"))
+#Welcome label
+welcome_label = tk.Label(root, text = "Click a button to see a greeting", font = ("Arial, 12"))
+welcome_label.pack(pady=20)
+
+# Dynamic label to display the greeting
+greeting_label = tk.Label(root, text="", font=("Arial", 14), fg="blue")
 greeting_label.pack(pady=20)
 
 
