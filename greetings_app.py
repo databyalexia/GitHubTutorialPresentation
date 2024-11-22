@@ -11,6 +11,10 @@ def display_greeting(language):
     elif language == "Spanish":
         greeting_label.config(text=greetings.spanish_greeting())
 
+    elif language == "Swahili":
+        greeting_label.config(text=greetings.swahili_greeting())
+
+
 #Main application window
 root = tk.Tk()
 root.title("Greeting App")
@@ -28,7 +32,8 @@ greeting_label.pack(pady=20)
 buttons = [
     ("English", "English"),
     ("French", "French"),
-    ("Spanish", "Spanish")
+    ("Spanish", "Spanish"), 
+    ("Swahili", "Swahili")
 ]
 
 # Create buttons dynamically
